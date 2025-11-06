@@ -1,4 +1,4 @@
-//syntax for creating a function is function fcn-name(parameter,parameter)
+//syntax for creating a function is function fcn-name(parameter,parameter){}
 function printFullName(firstName ,lastname){
  return firstName+" "+lastname;
 }
