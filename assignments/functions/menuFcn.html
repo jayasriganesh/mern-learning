@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+        function greetUser(){
+            console.log("Welcome to Student Tribe!");
+            //when greetUser fcn runs it prints "Welcome to Student Tribe!"
+        }
+        
+        function showMenu(str1){
+            greetUser();
+            return str1;
+            //now showMenu fcn calls greetUser directly and returns str1
+        }
+        console.log(showMenu("Here is your course menu!"));
+        //Welcome to Student Tribe!
+        //Here is your course menu! 
+        // will be printed
+    </script>
+</body>
+</html>
