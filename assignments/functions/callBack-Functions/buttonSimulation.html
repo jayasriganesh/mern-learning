@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Click Button Simulation</title>
+</head>
+<body>
+
+<button id="btn1">Click Me</button>
+<p id="message">Waiting...</p>
+
+<script>
+    const btn = document.getElementById("btn1");
+    const msg = document.getElementById("message");
+
+    btn.addEventListener("click", function () {
+        msg.textContent = "Button clicked!";
+
+        setTimeout(() => {
+            msg.textContent = "Thanks for clicking!";
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>
